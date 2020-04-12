@@ -1,0 +1,38 @@
+
+<nav class="navbar navbar-expand-lg navbar-light " style="padding-bottom: 15px;">
+
+  
+  <a class="navbar-brand a foco" [routerLink]="['/']" >
+    <img src="..." width="45" height="30" class="d-inline-block align-top" alt="">
+    Expo-Software
+  </a>
+
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+
+    <ul class="navbar-nav">
+
+      <li class="nav-item active">
+        <a class="nav-link" style="color: #ffffff;" [routerLink]="['/']" ><i class="fa fa-home" aria-hidden="true"></i> Home<span class="sr-only">(current)</span></a>
+      </li>
+      
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" style="color: #ffffff;" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fa fa-briefcase" aria-hidden="true"></i> Asignaturas
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" [routerLink]="['/asignaturaRegistro']" ><i class="fa fa-floppy-o" aria-hidden="true"></i> Registrar Asignatura</a>
+          <a class="dropdown-item" [routerLink]="['/asignaturaConsulta']"><i class="fa fa-search" aria-hidden="true"></i> Consultar Asignatura</a>
+        </div>
+      </li>
+
+
+      
+    </ul>
+
+
+  </div>
+
+</nav>
+
