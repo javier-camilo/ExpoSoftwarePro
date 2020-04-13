@@ -19,6 +19,7 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatListModule} from '@angular/material/list';
+import { AsignaturaService } from './services/asignatura.service';
 
 
 
@@ -51,7 +52,7 @@ import {MatListModule} from '@angular/material/list';
     AppRoutingModule,
     BrowserAnimationsModule
   ],
-  providers: [],
+  providers: [AsignaturaService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

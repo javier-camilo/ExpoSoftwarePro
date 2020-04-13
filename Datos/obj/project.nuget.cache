@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "QC6ZNLoQaUYVd5HizAe+5dpXlQBJZ7r94V6gDCmY5mpheqBgHzfkGF55uKGc+0dFPZdQcGvXYhloSoApDPo71g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ASUS-PC\\Desktop\\Plantillas oficiales\\ProyectoNuevo\\Datos\\Datos.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
