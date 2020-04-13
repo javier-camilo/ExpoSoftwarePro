@@ -19,10 +19,10 @@ export class AsignaturaRegistroComponent implements OnInit {
   }
 
   add(){
-    
+
     this.asignaturaService.post(this.asignatura).subscribe(p => {
       if (p != null) {
-        alert('Asignuta Registrar');
+        alert('Asignatura registrada');
       }
     });
 
